@@ -19,8 +19,7 @@ namespace FaceDemo
 {
     public partial class frmFaceAnalytics : Form
     {
-
-        //CONFIG - Edit Api Key
+        //CONFIG
         const string faceAPIKey = "YOUR_API_KEY";
         private readonly IFaceServiceClient faceServiceClient =
                 new FaceServiceClient(faceAPIKey, "https://brazilsouth.api.cognitive.microsoft.com/face/v1.0");
