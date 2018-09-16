@@ -6,6 +6,12 @@ A demonstration of face detection in images and videos using Azure Face cloud se
 
 ![Sample result](/FaceDemo/SampleIdentif.png)
 
+# What is in this sample
+
+- Face detection from video (webcam capture) or images;
+- Histogram of age of detected faces (per gender);
+- Emotion count of detected faces (per gender);
+
 # How to use this code
 
 - Download or clone this repository;
