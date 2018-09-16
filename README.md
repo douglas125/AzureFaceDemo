@@ -1,6 +1,8 @@
 # AzureFaceDemo
 
-A demonstration of face recognition in images and videos using Azure Face Recognition cloud services.
+Face detection in C# using Azure cognitive services.
+
+A demonstration of face detection in images and videos using Azure Face cloud services.
 
 ![Sample result](/FaceDemo/SampleIdentif.png)
 
@@ -19,4 +21,4 @@ private readonly IFaceServiceClient faceServiceClient =
 
 - Set reqTimeInSeconds to assign how often requests should be made to the API;
 - Compile and run the software. Start the video capture with the Play button.
-- More information about features computed by the Face APIÇ https://azure.microsoft.com/en-us/services/cognitive-services/face/
+- More information about features computed by the Face API: https://azure.microsoft.com/en-us/services/cognitive-services/face/
